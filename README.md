@@ -56,5 +56,4 @@ CHECKPOINT_DIR = F'/content/checkpoints/' + "epochs" + str(NUM_EPOCHS) + "_batch
 Now your results files will be saved in the colab virtual machine.
 
 ## 3) Results
-embeddingdims" + str(EMBEDDING_DIMS) + "_rnnunits" + str(RNN_UNITS)
 Checkpoints are saved after each epoch and the entire model is saved after all training. These are reloaded into the program during the testing phase to show how they work. Checkpoints and the entire model are saved to the following directory in your Google Drive: ``Colab/imageClassifier/checkpoints/epochs<NUM_EPOCHS>_batchSize<BATCH_SIZE>_embeddingdims<EMBEDDING_DIMS>_rnnunits<RNN_UNITS>/``. In order to change this, please edit the ``CHECKPOINT_DIR`` constant.
