@@ -1,0 +1,2 @@
+model_checkpoint_path: "/content/gdrive/My Drive/Colab/text-generator/checkpoints/epochs3_batchsize64_embeddingdims256_rnnunits1024/ckpt_3"
+all_model_checkpoint_paths: "/content/gdrive/My Drive/Colab/text-generator/checkpoints/epochs3_batchsize64_embeddingdims256_rnnunits1024/ckpt_3"
